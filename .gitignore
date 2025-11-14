@@ -16,7 +16,7 @@ ENV/
 # Datasets and models
 dataset/
 models/
-
+!dataset/with_aug_statistics.json
 # Jupyter/Colab checkpoints
 *.ipynb_checkpoints/
 notebooks/.ipynb_checkpoints/
