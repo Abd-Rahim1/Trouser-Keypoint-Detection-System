@@ -1,0 +1,39 @@
+# System and editor files
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+.vscode/
+
+# Python cache and environments
+__pycache__/
+*.pyc
+*.pyo
+.env/
+venv/
+ENV/
+
+# Datasets and models
+dataset/
+models/
+
+# Jupyter/Colab checkpoints
+*.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# Temporary images or outputs
+*.png
+*.jpg
+*.jpeg
+
+# Keep diagrams and UI screenshots
+!assets/
+!assets/**
+
+# Detectron2 build/cache folders
+/detectron2
+detectron2/
+detectron2/build/
+detectron2/detectron2.egg-info/
+detectron2/output/
+output/
