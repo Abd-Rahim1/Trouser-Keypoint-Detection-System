@@ -16,7 +16,11 @@ ENV/
 # Datasets and models
 dataset/
 models/
-!dataset/with_aug_statistics.json
+!dataset/Trousers_Dataset_With_Aug/
+!dataset/Trousers_Dataset_With_Aug/dataset_with_aug_statistics.json
+!dataset/Trousers_Dataset_Without_Aug/
+!dataset/Trousers_Dataset_Without_Aug/dataset_without_aug_statistics.json
+
 # Jupyter/Colab checkpoints
 *.ipynb_checkpoints/
 notebooks/.ipynb_checkpoints/
