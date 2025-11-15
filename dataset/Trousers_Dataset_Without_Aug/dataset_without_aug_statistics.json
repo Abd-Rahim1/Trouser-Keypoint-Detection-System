@@ -1,0 +1,60 @@
+{
+  "dataset_name": "Trousers_Dataset_Without_Aug",
+  "created_on": "2025-11-15",
+  "total_images": 7400,
+  "splits": {
+    "train": {
+      "images": 6907,
+      "size_mb": 160.63,
+      "percentage": "93.3%"
+    },
+    "validation": {
+      "images": 484,
+      "size_mb": 11.33,
+      "percentage": "6.5%"
+    },
+    "test": {
+      "images": 9,
+      "size_mb": 3.31,
+      "percentage": "0.1%"
+    }
+  },
+  "image_statistics": {
+    "sampled_images": 100,
+    "corrupted_images": 0,
+    "small_images_below_64x64": 0,
+    "average_resolution": "256x256",
+    "min_resolution": "256x256",
+    "max_resolution": "256x256",
+    "average_height": 256.0,
+    "average_width": 256.0,
+    "average_aspect_ratio": 1.0,
+    "avg_file_size_kb": 22.52,
+    "image_formats": {
+      ".jpg": 100
+    },
+    "top_5_largest_images_kb": [
+      [
+        "000135.jpg",
+        40.48
+      ],
+      [
+        "000133.jpg",
+        38.92
+      ],
+      [
+        "001607.jpg",
+        33.77
+      ],
+      [
+        "001467.jpg",
+        33.4
+      ],
+      [
+        "000525.jpg",
+        33.34
+      ]
+    ]
+  },
+  "disk_usage_mb": 175.27
+}
