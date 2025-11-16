@@ -1,16 +1,16 @@
 {
     "project": "Trouser Keypoint Detection",
     "dataset_statistics": {
-        "train_images": 6907,
-        "validation_images": 484,
-        "test_images": 9,
+        "train_images": 23683,
+        "validation_images": 2206,
+        "test_images": 0,
         "num_keypoints": 14,
-        "num_annotations": 7400,
-        "augmentation": false,
-        "dataset_name": "Trousers_Dataset_Without_Aug",
+        "num_annotations": 25889,
+        "augmentation": true,
+        "dataset_name": "Trousers Dataset (With Augmentation)",
         "paths": {
-            "train_coco": "C:dataset\\Trousers_Dataset_Without_Aug\\coco_format\\train_coco.json",
-            "val_coco": "C:dataset\\Trousers_Dataset_Without_Aug\\coco_format\\validation_coco.json"
+            "train_coco": "C:dataset\\Trousers_Dataset_With_Aug\\coco_format\\train_coco.json",
+            "val_coco": "C:dataset\\Trousers_Dataset_With_Aug\\coco_format\\validation_coco.json"
         }
     },
     "hyperparameters": {
