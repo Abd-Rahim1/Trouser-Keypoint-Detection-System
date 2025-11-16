@@ -1,0 +1,34 @@
+{
+    "project": "Trouser Keypoint Detection",
+    "dataset_statistics": {
+        "train_images": 6907,
+        "validation_images": 484,
+        "test_images": 9,
+        "num_keypoints": 14,
+        "num_annotations": 7400,
+        "augmentation": false,
+        "dataset_name": "Trousers_Dataset_Without_Aug",
+        "paths": {
+            "train_coco": "C:dataset\\Trousers_Dataset_Without_Aug\\coco_format\\train_coco.json",
+            "val_coco": "C:dataset\\Trousers_Dataset_Without_Aug\\coco_format\\validation_coco.json"
+        }
+    },
+    "hyperparameters": {
+        "learning_rate": 0.001,
+        "batch_size": 4,
+        "max_iterations": 20000,
+        "num_classes": 1,
+        "backbone": "build_resnet_fpn_backbone",
+        "weights_init": "C:models\\output_trousers_keypoints_101_V2\\model_final.pth",
+        "dataset_used": "trousers_train"
+    },
+    "training_results": {
+        "iteration": 19999,
+        "loss_final": 2.5368195688715787,
+        "loss_box_reg": 0.002683596103452146,
+        "loss_cls": 0.006032152334228158,
+        "loss_keypoint": 2.5227843523025513,
+        "total_time_hours": 1.3124702959999013
+    },
+    "model_file": "C:models\\output_trousers_keypoints_101_V2\\model_final.pth"
+}
